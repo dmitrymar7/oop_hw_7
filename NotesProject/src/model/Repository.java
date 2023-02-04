@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Repository implements IRepository {
 
-    private NotesMapper mapper = new NotesMapperJSON();
+    private NotesMapper mapper;
     private IFileOperation fileOperation;
 
     public Repository(NotesMapper mapper, IFileOperation fileOperation) {
